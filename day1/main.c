@@ -95,7 +95,6 @@ int find_first_digit(char *next_line)
     return (0);
 }
 
-
 int main(int argc, char **argv)
 {
     int fd;
@@ -121,24 +120,5 @@ int main(int argc, char **argv)
 		next_line = 0;
 	}
     printf("%d", cali_sum);
-    //int total_engine_parts;
-    //total_engine_parts = 0;
-    //j = 0;
-    //while(totalstr[j] != NULL)
-    //{
-    //    // if(totalstr[j] >= '0' && totalstr[j] <= '9')
-    //        total_engine_parts += parse_engine_part(totalstr, &j);
-    //    // else
-    //        j++;
-    //}
-	// printf("%d engineparts\n\n", total_engine_parts);
-    //j = 0;
-    //while(1)
-    //{
-    //    if(totalstr[j] == NULL)
-    //        break ;
-    //    free(totalstr[j]);
-    //    j++;
-    //}
     close(fd);
 }
